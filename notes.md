@@ -1,4 +1,3 @@
-
 // Variables & Functions → camelCase
 
 // let userName: string = "Abdullah";  
