@@ -139,4 +139,4 @@ var AdminRoles;
     AdminRoles["Moderator"] = "admin3";
     AdminRoles["Assistant"] = "admin4";
 })(AdminRoles || (AdminRoles = {}));
-//# sourceMappingURL=practice.js.map
+//# sourceMappingURL=enum.js.map
