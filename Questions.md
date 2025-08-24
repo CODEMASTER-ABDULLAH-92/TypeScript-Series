@@ -1,234 +1,41 @@
 // Loop Exersise:
 // 1. Write a js program to print all natural numbers from 1 to n. - using while loop
-// let n=1;
-// while (n <=10) {
-//     console.log("n ", n);
-//     n++;
-// }
+
 // 2. Write a js program to print all natural numbers in reverse (from n to 1). - using while loop
 
-// let n = 10;
-// while (n >1) {
-//     console.log("n: ", n);
-//     n--;
-// }
-
 // 4. Write a js program to print all even numbers between 1 to 100. - using while loop
-
-// let n = 1;
-// while (n <=100) {
-//     if (n % 2 == 0) {
-//         console.log("Even: ",n);
-//     }
-//     n++
-// }
 // 5. Write a js program to print all odd number between 1 to 100.
-// let n = 1;
-// while (n <=100) {
-//     if (n % 2 == 0) {
-//         n++;
-//         continue;
-//     }
-//     console.log("Odd: ", n);
-//     n++
-// }
 // 6. Write a js program to find sum of all natural numbers between 1 to n.
-
-// let n = 10;
-// let sum = 0;
-// for(let i = 0; i <=n; i++){
-//     sum += n;
-// }
-// console.log("Sum: ", sum);
-
 // 7. Write a js program to find sum of all even numbers between 1 to n.
-// let n = 10;
-// let sum = 0;
-// for(let i = 0; i <=n; i++){
-//     if (i % 2 == 0) {
-//         sum += n;
-//     }
-// }
-// console.log("Sum: ", sum);
-
 // 8. Write a js program to find sum of all odd numbers between 1 to n.
-// 7. Write a js program to find sum of all even numbers between 1 to n.
 
-let n = 10;
-let sum = 0;
-for (let i = 0; i <= n; i++) {
-  if (i % 2 == 1) {
-    sum += n;
-  }
-}
-console.log("Sum: ", sum);
+
+
+
 
 // If-else exercise
 // 1. Write a js program to find maximum between two numbers.
-// let a = 12;
-// let b =25;
-// if (a > b) {
-//     console.log(`${a} is Greater Than ${b}`);
-// }
-// else
-// console.log(`${b} is Greater Than ${a}`);
 // 2. Write a js program to find maximum between three numbers.
-// let a = 12;
-// let c = 25;
-// let b = 49;
-// if (a > b && a > c) {
-//   console.log(`${a} is Greater`);
-// } else if (b > a && b > c) {
-//     console.log(`${b} is Greater`);
-// } else
-// console.log(`${c} is Greater`);
-
 // 3. Write a js program to check whether a number is negative, positive or zero.
-
-// let number = 0;
-// if (number > 0) {
-//     console.log(`${number} is pos`);
-// } else if (number < 0) {
-//     console.log(`${number} is negative`);
-// } else{
-//     console.log(`${number} is zero`);
-// }
 // 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
-
-// let number = 13;
-
-// if (number % 5 === 0 && number % 11 === 0) {
-//     console.log(`${number} is divisible by both 5 and 11.`);
-// } else {
-//     console.log(`${number} is NOT divisible by both 5 and 11.`);
-// }
-
 // 5. Write a js program to check whether a number is even or odd.
-
-// let number = 13;
-// if (number % 2 == 0) {
-//     console.log(`${number} is even`);
-// }
-// else{
-//     console.log(`${number} is odd`);
-// }
 // 6. Write a js program to check whether a year is leap year or not.
 
 // It is divisible by 4
 // AND
 
 // Not divisible by 100, unless it is also divisible by 400
-let year = 2004;
-
-if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-  console.log("Leap Year");
-} else {
-  console.log("Not Leap Year");
-}
 
 // 8. Write a js program to input any alphabet and check whether it is vowel or consonant.
-// let ch = 'r';
-// ch = ch.toLowerCase();
-// if (ch.length === 1 && ch >= 'a' && ch <= 'z') {
-//     if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u') {
-//         console.log(`${ch} is a Vowel`);
-//     }
-//     else{
-//         console.log(`${ch} is a consonant`);
-//     }
-// }
 // 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
-
-// let ch = '99';
-// if (/[A-Z]/.test(ch)) {
-//     console.log(`${ch} is a Alphabet`);
-// }
-// else if (/\d/.test(ch)) {
-//     console.log(`${ch} is a Number`);
-// }
-// else {
-//     console.log(`${ch} is a Specail`);
-// }
 // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
-// let ch = "r";
-// if (/[A-Z]/.test(ch)) {
-//   console.log(`${ch} is a UpperCase Alphabet`);
-// }
-// if (/[a-z]/.test(ch)) {
-//     console.log(`${ch} is a LowerCase Alphabet`);
-// }
 // 11. Write a js program to input week number and print week day.
-// let number = 3;
-// switch(number){
-//     case 1:
-//         console.log("Mon");
-//         break;
-//     case 2:
-//         console.log("Tue");
-//         break;
-//     case 3:
-//         console.log("Wed");
-//         break;
-//     case 4:
-//         console.log("Thru");
-//         break;
-//     case 5:
-//         console.log("Fri");
-//         break;
-//     case 6:
-//         console.log("Sat");
-//         break;
-//         default:
-//             console.log("Sun");
-// }
-
 // 12. Write a js program to input month number and print number of days in that month.
 // 31 days: Jan, Mar, May, Jul, Aug, Oct, Dec → 1, 3, 5, 7, 8, 10, 12
 
 // 30 days: Apr, Jun, Sep, Nov → 4, 6, 9, 11
 
 // 28 or 29 days: Feb → 2 (check for leap year if needed)
-let monthNumber = 6;
-switch (monthNumber) {
-    case 1:
-        console.log("31 days");
-        break;
-    case 2:
-        console.log("28 or 29 days");
-        break;
-    case 3:
-        console.log("31 days");
-        break;
-    case 4:
-        console.log("30 days");
-        break;
-    case 5:
-        console.log("31 days");
-        break;
-    case 6:
-        console.log("30 days");
-        break;
-    case 7:
-        console.log("31 days");
-        break;
-    case 8:
-        console.log("31 days");
-        break;
-    case 9:
-        console.log("30 days");
-        break;
-    case 10:
-        console.log("31 days");
-        break;
-    case 11:
-        console.log("30 days");
-        break;
-    case 12:
-        console.log("31 days");
-        break;
-    default:
-        break;    
-}
 // 13. Write a js program to count total number of notes in given amount.
 // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
 // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
