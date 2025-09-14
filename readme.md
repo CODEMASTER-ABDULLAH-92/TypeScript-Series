@@ -51,7 +51,7 @@ Clone this repo and start practicing right away:
 
 ```bash
 git clone https://github.com/your-username/TypeScript-Series.git
-cd TypeScript-Series
+cd TypeScript-Series ```
 
 Install dependencies (if any):
 
