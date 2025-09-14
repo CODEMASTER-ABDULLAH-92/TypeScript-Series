@@ -45,21 +45,15 @@ git clone https://github.com/CODEMASTER-ABDULLAH-92/TypeScript-Series/
 ---
 
 📢 Connect With Me
-
 If this repo helps you, ⭐ star it and share it with your friends!
-
 📧 Email: abdullahpeerzada92@gmail.com
+
 ---
 
 🌟 Why TypeScript?
-
 💙 TypeScript makes JavaScript safer, more powerful, and developer-friendly.
 It catches errors before runtime, improves auto-completion, and helps you write cleaner & maintainable code.
-
 With TypeScript, you can confidently build:
-
 - ⚛️ React & Next.js projects
-
 - 🖥 Node.js APIs
-
 - 📦 Any scalable JS application
