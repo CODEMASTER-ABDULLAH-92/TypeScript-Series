@@ -177,3 +177,117 @@
 //  * - Frontend: Use interfaces for props, API responses
 //  * - Backend: Use interfaces for DB models, request/response validation
 //  */
+
+
+// 1. Define an interface `Person` with `name` and `age`. Write a function that greets the person.
+// 2. Create an interface `Product` with `id, name, price`. Write a function that applies discount.
+// 3. Define an interface `Animal` with `sound()`. Implement `Dog` and `Cat` classes using it.
+// 4. Write a function that accepts an interface `Point` with `x, y` and returns distance from origin.
+// 5. Create an interface `User` with optional `email`. Write a function that prints `email` if present.
+// 6. Define an interface `Vehicle` with `drive()`. Implement `Car` and `Bike`.
+// 7. Create an interface `Shape` with `area()`. Implement `Circle` and `Rectangle`.
+// 8. Write a function that takes `Employee` interface and prints full details.
+// 9. Define an interface `Student` with `grades: number[]`. Write a function that calculates average.
+// 10. Create an interface `Logger` with method `log(message: string)`. Implement `ConsoleLogger`.
+// 11. Define an interface `ApiResponse<T>` with `data` and `error?`. Write a function returning `ApiResponse<User>`.
+// 12. Write an interface `Repository<T>` with methods `add`, `remove`, `getAll`. Implement for `string`.
+// 13. Create an interface `AuthService` with `login`, `logout`. Write a function that uses it.
+// 14. Define an interface with index signature `[key: string]: number`. Write a function that sums values.
+// 15. Create an interface `Cart` with `items: Product[]`. Write a function to calculate total price.
+// 16. Define an interface `Config` with `readonly` properties. Write a function that tries to update.
+// 17. Write an interface `Shape3D` that extends `Shape`. Implement `Cube`.
+// 18. Create an interface `Event` with `id, type, timestamp`. Write a function that logs events.
+// 19. Define an interface `Notification` with `message, type`. Write a function that displays notification.
+// 20. Create an interface `Queue<T>`. Implement enqueue and dequeue operations.
+
+
+ // ======================
+
+ // Questions 
+
+ // ======================
+// 1. Define an interface `Person` with `name` and `age`. Write a function that greets the person.
+
+// interface Person{
+//     name:string,
+//     age:number
+// }
+
+// const greet = (person:Person):void=>{
+//     console.log(`Hello! ${person.name}. You are ${person.age} Years Old`);
+// }
+
+// const p1:Person = {
+//     name:"Abdullah",
+//     age:22,
+// }
+// greet(p1);
+
+
+// 2. Create an interface `Product` with `id, name, price`. Write a function that applies discount.
+// interface Product {
+//   id?: string;
+//   name: string;
+//   price: number;
+// }
+
+// const dis = (pro: Product): void => {
+//   const discountRate = 2; // in percent
+//   const discount = (pro.price * discountRate) / 100;
+//   const finalPrice = pro.price - discount;
+
+//   console.log(
+//     `The actual price of ${pro.name} is ${pro.price}. You got ${discountRate}% discount (${discount}). Now the grand total is ${finalPrice}.`
+//   );
+// };
+
+// const d: Product = {
+//   name: "Apple",
+//   price: 230,
+// };
+
+// dis(d);
+
+
+// 3. Define an interface `Animal` with `sound()`. Implement `Dog` and `Cat`
+
+interface Animal {
+  sound: () => void;
+  name: string;
+}
+
+const Dog: Animal = {
+  name: "Bool",
+  sound: function () {
+    console.log(`${this.name} says Woof 🐶`);
+},
+};
+
+const Cat:Animal = {
+    name:"Cato",
+    sound:()=>{
+        console.log(`${Cat.name} says Meow 🐶`);
+    }
+}
+Dog.sound(); // 
+Cat.sound();//
+
+// 4. Write a function that accepts an interface `Point` with `x, y` and returns distance from origin.
+
+
+interface Point {
+  x: number;
+  y: number;
+}
+
+function distance(p: Point): number {
+  const dist = Math.sqrt(p.x * p.x + p.y * p.y);
+  return dist;
+}
+
+const d: Point = {
+  x: 5,
+  y: 6,
+};
+
+console.log(`The distance from origin is: ${distance(d)}`);
