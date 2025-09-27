@@ -536,3 +536,17 @@ function showMessage(status: Status) {
 showMessage("success"); // ✅ works
 
 ```
+---
+
+- _Kindly Star this repo if you found any help_
+- _Made with ❤️ by Muhammad Abdullah_
+- _Contact: abdullahpeerzada92@gmail.com_
+- _Contact: infoabdullahdev92@gmail.com_
+
+---
+
+If you find any bugs or issues, kindly reach out via email or LinkedIn:
+
+- 📧 Email: abdullahpeerzada92@gmail.com
+- 🔗 LinkedIn: [Abdullah's Linkedin](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/)
+
