@@ -62,9 +62,9 @@ With TypeScript, you can confidently build:
 
 | Serial No. | Project Name       | Tech Stack              | GitHub Link | Author |
 |------------|------------------|------------------------|-------------|--------|
-| 1          | Project One       | React, Tailwind CSS, Node.js | [GitHub Repo](https://github.com/username/project-one) | [Muhammad Abdullah](https://www.linkedin.com/in/abdullah-peerzada) |
-| 2          | Project Two       | MERN Stack, JWT Auth   | [GitHub Repo](https://github.com/username/project-two) | [Muhammad Abdullah](https://www.linkedin.com/in/abdullah-peerzada) |
-| 3          | Project Three     | Next.js, MongoDB, Express | [GitHub Repo](https://github.com/username/project-three) | [Muhammad Abdullah](https://www.linkedin.com/in/abdullah-peerzada) |
+| 1          | Typing Speed Game       | React, Tailwind CSS, Node.js | [GitHub Repo](https://github.com/username/project-one) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 2          | Random Quote Generator       | MERN Stack, JWT Auth   | [GitHub Repo](https://github.com/username/project-two) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 3          | Project Three     | Next.js, MongoDB, Express | [GitHub Repo](https://github.com/username/project-three) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
 
 ---
 
