@@ -60,11 +60,14 @@ With TypeScript, you can confidently build:
 
 # TypeScript Projects
 
-| Serial No. | Project Name       | Tech Stack              | GitHub Link | Author |
-|------------|------------------|------------------------|-------------|--------|
-| 1          | Typing Speed Game       | React, Tailwind CSS, Node.js | [GitHub Repo](https://github.com/username/project-one) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
-| 2          | Random Quote Generator       | MERN Stack, JWT Auth   | [GitHub Repo](https://github.com/username/project-two) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
-| 3          | Project Three     | Next.js, MongoDB, Express | [GitHub Repo](https://github.com/username/project-three) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| Serial No. | Project Name           | Tech Stack              | Status   | GitHub Link | Author |
+|------------|----------------------|------------------------|----------|-------------|--------|
+| 1          | Calculator           | React, Tailwind CSS, Node.js | ✅ Done   | [GitHub Repo](https://github.com/CODEMASTER-ABDULLAH-92/TsProjects/tree/main/Calculator) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 2          | Random Quote Generator | MERN Stack, JWT Auth   | ✅ Done   | [GitHub Repo](https://github.com/CODEMASTER-ABDULLAH-92/TsProjects/tree/main/RandomQuoteGenerator) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 3          | Password Generator   | Next.js, MongoDB, Express | ✅ Done   | [GitHub Repo](https://github.com/CODEMASTER-ABDULLAH-92/TsProjects/tree/main/PasswordGenerator) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 4          | Typing Speed Game    | Next.js, MongoDB, Express | ⏳ Pending | [GitHub Repo](https://github.com/CODEMASTER-ABDULLAH-92/TsProjects/tree/main/TypingSpeedGame) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 5          | Quiz App             | Next.js, MongoDB, Express | ⏳ Pending | [GitHub Repo](https://github.com/CODEMASTER-ABDULLAH-92/TsProjects/tree/main/QuizApp) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
+| 6          | Weather App          | Next.js, MongoDB, Express | ⏳ Pending | [GitHub Repo](https://github.com/CODEMASTER-ABDULLAH-92/TsProjects/tree/main/WeatherApp) | [Muhammad Abdullah](https://www.linkedin.com/in/muhammad-abdullah-4881b2384/) |
 
 ---
 
