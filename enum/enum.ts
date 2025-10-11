@@ -50,8 +50,6 @@ enum Status {
   Rejected = "REJECTED",
 }
 
-
-
 // 4️⃣ API Response Types → Representing HTTP status codes
 enum ResponseType {
   Success = 200,
@@ -249,8 +247,6 @@ enum AdminRoles {
 
 // checkStatus(Roles.Guest);
 
-
-
 // 4. Write a function that accepts an enum `Days` (`Monday` … `Sunday`) and returns if it’s weekend.
 
 // enum Days {
@@ -276,17 +272,149 @@ enum AdminRoles {
 // console.log(checkWeekend(Days.Saturday)); // Weekend
 // console.log(checkWeekend(Days.Wednesday)); // Not Weekend
 
-
 // 5. Define an enum `Colors` and write a function to convert to hex values.
 
+// enum Colors {
+//   white="#fff",
+//   black="#000"
+// }
 
-enum Colors {
-  white="#fff",
-  black="#000"
+// const convertColors = (color:Colors)=>{
+//   console.log(`The hex value of white is ${color}`);
+// }
+// convertColors(Colors.white);
+// convertColors(Colors.black);
+
+// 6. Create a numeric enum `LogLevel` with `Info, Warning, Error`. Write a logger function.
+
+// enum LogLevel {
+//   Info,
+//   Warning,
+//   Error
+// }
+
+// function loggerFunction(level: LogLevel, message: string) {
+//   const timestamp = new Date().toISOString();
+
+//   switch (level) {
+//     case LogLevel.Info:
+//       console.log(`[INFO] ${timestamp} - ${message}`);
+//       break;
+
+//     case LogLevel.Warning:
+//       console.warn(`[WARNING] ${timestamp} - ${message}`);
+//       break;
+
+//     case LogLevel.Error:
+//       console.error(`[ERROR] ${timestamp} - ${message}`);
+//       break;
+
+//     default:
+//       console.log(`[UNKNOWN] ${timestamp} - ${message}`);
+//   }
+// }
+
+// // Usage
+// loggerFunction(LogLevel.Info, "Server started successfully");
+// loggerFunction(LogLevel.Warning, "Disk space running low");
+// loggerFunction(LogLevel.Error, "Unable to connect to database");
+
+// 7. Write a function that takes `PaymentStatus` enum (`Pending, Completed, Failed`) and returns a message.
+
+// enum PaymentStatus {
+//   Pending,
+//   Completed,
+//   Failed,
+// }
+
+// function paymentFunction(payment: PaymentStatus): string {
+//   switch (payment) {
+//     case PaymentStatus.Completed:
+//       return "The payment has been completed successfully.";
+//     case PaymentStatus.Pending:
+//       return "The payment is still pending.";
+//     case PaymentStatus.Failed:
+//       return "The payment has failed. Please try again.";
+//     default:
+//       return "Unknown payment status.";
+//   }
+// }
+
+// // Example usage:
+// const message = paymentFunction(PaymentStatus.Completed);
+// console.log(message);
+
+// 8. Create a string enum `Months`. Write a function that returns the number of days.
+
+// enum Months {
+//   Jan,
+//   Feb,
+//   Mar,
+//   Apr,
+//   May,
+//   June,
+//   July,
+//   Aug,
+//   Sep,
+//   Oct,
+//   Nov,
+//   Dec,
+// }
+
+// function checkDays(month: Months): number {
+//   switch (month) {
+//     case Months.Jan:
+//     case Months.Mar:
+//     case Months.May:
+//     case Months.July:
+//     case Months.Aug:
+//     case Months.Oct:
+//     case Months.Dec:
+//       return 31;
+
+//     case Months.Apr:
+//     case Months.June:
+//     case Months.Sep:
+//     case Months.Nov:
+//       return 30;
+
+//     case Months.Feb:
+//       return 28; // or 29 in leap year (can be extended later)
+
+//     default:
+//       throw new Error("Invalid month");
+//   }
+// }
+
+// // Example usage:
+// console.log(checkDays(Months.Feb)); // 28
+// console.log(checkDays(Months.July)); // 31
+
+// 9. Define an enum `Sizes` (`Small, Medium, Large`). Write a function to calculate shipping cost.
+
+
+enum Sizes {
+  Small,
+  Medium,
+  Large,
 }
 
-const convertColors = (color:Colors)=>{
-  console.log(`The hex value of white is ${color}`);
+function calculateCost(size: Sizes): string {
+  switch (size) {
+    case Sizes.Small:
+      return `The shipping cost for Small size is 20 PKR`;
+    case Sizes.Medium:
+      return `The shipping cost for Medium size is 40 PKR`;
+    case Sizes.Large:
+      return `The shipping cost for Large size is 60 PKR`;
+    default:
+      return `Invalid size selected`;
+  }
 }
-convertColors(Colors.white);
-convertColors(Colors.black);
+
+// Example usage:
+console.log(calculateCost(Sizes.Large));
+
+
+
+// 10. Write a function that iterates over enum `Seasons` and prints values.
